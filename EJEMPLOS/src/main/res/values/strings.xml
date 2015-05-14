@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings1">Actividad1</string>
+    <string name="action_settings2">Actividad2</string>
+    <string name="title_activity_secon">SeconActivity</string>
+    <string name="segundos">segunda</string>
+    <string name="string12">Hola Caragola</string>
+</resources>

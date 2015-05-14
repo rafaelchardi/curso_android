@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">TERREMOTOS</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="action_help">Help</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_activity_configuracion">activity_configuracion</string>
+    <string name="ayuda">Esta aplicacion es la bla blba bla bla bla bal.......</string>
+    <string name="salir">salir</string>
+    <string name="acceptar">Aceptar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="url">URL</string>
+    <string name="frecuencia">FRECUENCIA</string>
+    <string name="title_activity_main_activity_lista_resultado">MainActivityListaResultado</string>
+</resources>

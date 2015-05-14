@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.curso.androidm.terremotos" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivityTerremotos"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivityConfiguracion"
+            android:label="@string/title_activity_main" >
+        </activity>
+        <activity
+            android:name=".MainActivityHelp"
+            android:label="@string/title_activity_activity_configuracion" >
+        </activity>
+        <activity
+            android:name=".MainActivityListaResultado"
+            android:label="@string/title_activity_main_activity_lista_resultado" >
+        </activity>
+    </application>
+
+</manifest>

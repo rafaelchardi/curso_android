@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Esta es mi Application</string>
+
+    <string name="hello_world">Rafael Chardi</string>
+    <string name="action_settings">Opcion 1</string>
+    <string name="action_settings1">Opcion 2</string>
+    <string name="ident1">nose</string>
+</resources>

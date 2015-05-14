@@ -22,6 +22,8 @@ public class MainActivity extends ActionBarActivity {
         final List<Tareas> datos = new LinkedList<Tareas>();
         datos.add(new Tareas("Nadar","nadar Nadar Nadar"));
         datos.add(new Tareas("Bici","bici Bici Bici "));
+        // hola
+
         datos.add(new Tareas("Correr", "correr Correr Correr"));
 
         final TareasAdapter adaptador = new TareasAdapter(this,R.layout.tarea_list_item,datos);

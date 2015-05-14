@@ -9,7 +9,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.Toast;
-
+// pagina de los termotos.
+// http://earthquake.usgs.gov/earthquakes/feed/v1.0/summary/all_hour.atom
 
 public class MainActivityTerremotos extends ActionBarActivity implements View.OnClickListener{
 

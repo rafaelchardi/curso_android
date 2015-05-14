@@ -23,6 +23,7 @@ public class MainActivity extends ActionBarActivity {
         datos.add(new Tareas("Nadar","nadar Nadar Nadar"));
         datos.add(new Tareas("Bici","bici Bici Bici "));
         // hola
+        // tercera versiuon
 
         datos.add(new Tareas("Correr", "correr Correr Correr"));
 

@@ -1,1 +1,1 @@
-include ':app', ':myapplication2', ':myapplication3', ':micalculadora', ':mycalculadora2intento', ':EJEMPLOS', ':terremotos', ':terremotos2', ':VIEWADAPTER', ':MENUCONTEXTUAL'
+include ':app', ':myapplication2', ':myapplication3', ':micalculadora', ':mycalculadora2intento', ':EJEMPLOS', ':terremotos', ':terremotos2', ':VIEWADAPTER', ':MENUCONTEXTUAL', ':FRACMENTOS'

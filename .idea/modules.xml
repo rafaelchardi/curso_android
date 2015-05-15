@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/EJEMPLOS/EJEMPLOS.iml" filepath="$PROJECT_DIR$/EJEMPLOS/EJEMPLOS.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FRACMENTOS/FRACMENTOS_CHARDI.iml" filepath="$PROJECT_DIR$/FRACMENTOS/FRACMENTOS_CHARDI.iml" />
       <module fileurl="file://$PROJECT_DIR$/MENUCONTEXTUAL/MENUCONTEXTUAL.iml" filepath="$PROJECT_DIR$/MENUCONTEXTUAL/MENUCONTEXTUAL.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
       <module fileurl="file://$PROJECT_DIR$/VIEWADAPTER/VIEWADAPTER.iml" filepath="$PROJECT_DIR$/VIEWADAPTER/VIEWADAPTER.iml" />

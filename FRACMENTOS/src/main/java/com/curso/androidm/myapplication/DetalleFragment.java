@@ -5,7 +5,7 @@ import android.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
+import android.widget.TextView;
 
 
 public class DetalleFragment extends Fragment {
@@ -14,6 +14,12 @@ public class DetalleFragment extends Fragment {
 
     public DetalleFragment() {
         // Required empty public constructor
+    }
+
+    public void actualizaDetalle(Tareas tarea){
+        TextView textViewNombre = (TextView) getActivity().findViewById(R.id.textViewNombre);
+        textViewNombre.setText(tarea.getNombre());
+
     }
 
 

@@ -10,16 +10,17 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/DIALOGOS" />
             <option value="$PROJECT_DIR$/EJEMPLOS" />
             <option value="$PROJECT_DIR$/FRACMENTOS" />
             <option value="$PROJECT_DIR$/MENUCONTEXTUAL" />
             <option value="$PROJECT_DIR$/VIEWADAPTER" />
             <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/fragments" />
             <option value="$PROJECT_DIR$/micalculadora" />
             <option value="$PROJECT_DIR$/myapplication2" />
             <option value="$PROJECT_DIR$/myapplication3" />
             <option value="$PROJECT_DIR$/mycalculadora2intento" />
-            <option value="$PROJECT_DIR$/terremotos" />
             <option value="$PROJECT_DIR$/terremotos2" />
           </set>
         </option>

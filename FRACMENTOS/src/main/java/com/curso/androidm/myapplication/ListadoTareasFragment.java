@@ -57,11 +57,7 @@ public class ListadoTareasFragment extends Fragment {
 
         tareaslistView.setAdapter(adaptador);*/
     }
-    public void actualizaDetalle(Tareas tarea){
-        TextView textViewNombre = (TextView) getActivity().findViewById(R.id.textViewNombre);
-        textViewNombre.setText(tarea.getNombre());
 
-    }
 
     public void  registresListViesTareasOnClickListenesr(View.OnClickListener listener1){
         View lvtareas = getActivity().findViewById(R.id.lvtareas);

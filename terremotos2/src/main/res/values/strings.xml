@@ -13,4 +13,11 @@
     <string name="url">URL</string>
     <string name="frecuencia">FRECUENCIA</string>
     <string name="title_activity_main_activity_lista_resultado">MainActivityListaResultado</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main_activity_detalle_resultado">MainActivityDetalleResultado
+    </string>
+    <string name="Magnitud">Magnitud</string>
+    <string name="Fecha">Fecha</string>
 </resources>

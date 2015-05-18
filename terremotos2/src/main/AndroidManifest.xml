@@ -28,6 +28,10 @@
             android:name=".MainActivityListaResultado"
             android:label="@string/title_activity_main_activity_lista_resultado" >
         </activity>
+        <activity
+            android:name=".MainActivityDetalleResultado"
+            android:label="@string/title_activity_main_activity_detalle_resultado" >
+        </activity>
     </application>
 
 </manifest>

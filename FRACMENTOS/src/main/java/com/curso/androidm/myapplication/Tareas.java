@@ -1,9 +1,11 @@
 package com.curso.androidm.myapplication;
 
+import java.io.Serializable;
+
 /**
  * Created by androidm on 13/05/2015.
  */
-public class Tareas {
+public class Tareas implements Serializable{
     private String nombre;
     private String descripcion;
 

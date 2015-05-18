@@ -1,9 +1,12 @@
 package com.curso.androidm.myapplication;
 
+import android.app.Fragment;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+
+import java.io.Serializable;
 
 
 public class DetalleActivity extends ActionBarActivity {
@@ -12,6 +15,10 @@ public class DetalleActivity extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_detalle);
+        Tareas tarea = (Tareas) getIntent().getSerializableExtra("tarea");
+        Fragment framentodetalle = getFragmentManager().findFragmentById(R.id.fragmentdetalle);
+        ((DetalleFragment) framentodetalle).actualizaDetalle(tarea);
+
     }
 
     @Override

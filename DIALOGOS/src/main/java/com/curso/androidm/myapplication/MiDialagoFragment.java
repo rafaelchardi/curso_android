@@ -17,11 +17,14 @@ import android.widget.Toast;
 /**
  * A simple {@link Fragment} subclass.
  */
+
+
 public class MiDialagoFragment extends DialogFragment {
 
-    private   AlertDialog.Builder factoria;
 
+    private DialogInterface.OnClickListener pnegativo, ppositivo;
 
+    private  AlertDialog.Builder factoria;
 
     public MiDialagoFragment() {
         // Required empty public constructor
@@ -31,23 +34,24 @@ public class MiDialagoFragment extends DialogFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        factoria = new AlertDialog.Builder(getActivity());
-        factoria.setMessage("Desea continuar");
-
     }
 
     public Dialog onCreateDialog(Bundle savedInstanceState){
 
+
+        factoria = new AlertDialog.Builder(getActivity());
+        factoria.setMessage("Desea continuar");
+        factoria.setPositiveButton("Si", ppositivo);
+        factoria.setNegativeButton("No",pnegativo);
         return  factoria.create();
 
     }
-
     public void SetOnClicLisenerPositivo(DialogInterface.OnClickListener p1) {
-        factoria.setPositiveButton("Si",p1);
+        ppositivo = p1;
     }
     public void SetOnClicLisenerNegativo(DialogInterface.OnClickListener p1)
     {
-        factoria.setNegativeButton("No", p1);
+        pnegativo = p1;
     }
 
 

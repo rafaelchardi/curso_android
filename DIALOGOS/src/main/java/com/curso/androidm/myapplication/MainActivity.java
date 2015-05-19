@@ -1,5 +1,6 @@
 package com.curso.androidm.myapplication;
 
+import android.app.Activity;
 import android.app.AlertDialog;
 import android.app.FragmentTransaction;
 import android.content.DialogInterface;
@@ -40,9 +41,9 @@ public class MainActivity extends ActionBarActivity {
         });
 
 
-         FragmentTransaction  fragmentTransaction = getFragmentManager().beginTransaction();
-         fragmentTransaction.add(miDialagoFragment,"midialdogframenget");
-
+         //FragmentTransaction  fragmentTransaction = getFragmentManager().beginTransaction();
+         //fragmentTransaction.add(miDialagoFragment,"midialdogframenget");
+         //fragmentTransaction.commit();
     }
 
 
@@ -58,7 +59,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
+     public boolean onOptionsItemSelected(MenuItem item) {
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.

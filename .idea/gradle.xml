@@ -14,6 +14,7 @@
             <option value="$PROJECT_DIR$/EJEMPLOS" />
             <option value="$PROJECT_DIR$/FRACMENTOS" />
             <option value="$PROJECT_DIR$/MENUCONTEXTUAL" />
+            <option value="$PROJECT_DIR$/SHAREPREFERENCES" />
             <option value="$PROJECT_DIR$/VIEWADAPTER" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/fragments" />
@@ -22,6 +23,7 @@
             <option value="$PROJECT_DIR$/myapplication3" />
             <option value="$PROJECT_DIR$/mycalculadora2intento" />
             <option value="$PROJECT_DIR$/terremotos2" />
+            <option value="$PROJECT_DIR$/utilidades" />
           </set>
         </option>
       </GradleProjectSettings>

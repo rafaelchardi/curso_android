@@ -1,1 +1,1 @@
-include ':app', ':DIALOGOS', 'fragments',':myapplication2', ':myapplication3', ':micalculadora', ':mycalculadora2intento', ':EJEMPLOS', ':terremotos2', ':VIEWADAPTER', ':MENUCONTEXTUAL', ':FRACMENTOS'
+include ':app', ':DIALOGOS', ':utilidades', ':SHAREPREFERENCES', 'fragments',':myapplication2', ':myapplication3', ':micalculadora', ':mycalculadora2intento', ':EJEMPLOS', ':terremotos2', ':VIEWADAPTER', ':MENUCONTEXTUAL', ':FRACMENTOS'

@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/FRACMENTOS/FRACMENTOS.iml" filepath="$PROJECT_DIR$/FRACMENTOS/FRACMENTOS.iml" />
       <module fileurl="file://$PROJECT_DIR$/MENUCONTEXTUAL/MENUCONTEXTUAL.iml" filepath="$PROJECT_DIR$/MENUCONTEXTUAL/MENUCONTEXTUAL.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SHAREPREFERENCES/SHAREPREFERENCES.iml" filepath="$PROJECT_DIR$/SHAREPREFERENCES/SHAREPREFERENCES.iml" />
       <module fileurl="file://$PROJECT_DIR$/VIEWADAPTER/VIEWADAPTER.iml" filepath="$PROJECT_DIR$/VIEWADAPTER/VIEWADAPTER.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/fragments/fragments.iml" filepath="$PROJECT_DIR$/fragments/fragments.iml" />
@@ -15,6 +16,7 @@
       <module fileurl="file://$PROJECT_DIR$/myapplication3/myapplication3.iml" filepath="$PROJECT_DIR$/myapplication3/myapplication3.iml" />
       <module fileurl="file://$PROJECT_DIR$/mycalculadora2intento/mycalculadora2intento.iml" filepath="$PROJECT_DIR$/mycalculadora2intento/mycalculadora2intento.iml" />
       <module fileurl="file://$PROJECT_DIR$/terremotos2/terremotos2.iml" filepath="$PROJECT_DIR$/terremotos2/terremotos2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/utilidades/utilidades.iml" filepath="$PROJECT_DIR$/utilidades/utilidades.iml" />
     </modules>
   </component>
 </project>

@@ -1,21 +1,28 @@
 package com.curso.androidm.myapplication;
 
-import android.content.Intent;
-import android.content.SharedPreferences;
-import android.preference.PreferenceManager;
+import android.app.ProgressDialog;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.Toast;
+import android.view.View;
+import android.widget.ImageView;
 
 
 public class MainActivity extends ActionBarActivity {
+
+    private ImageView imageview;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+        ImageView viewById = (ImageView) findViewById(R.id.imageView);
+        DescargaDeFichero descargaDeFichero = new DescargaDeFichero(viewById,new ProgressDialog(this));
+        descargaDeFichero.execute("http://denkrieck.nl/wp-content/uploads/2012/02/Triathlon.jpg");
+
     }
 
     @Override
@@ -34,37 +41,9 @@ public class MainActivity extends ActionBarActivity {
 
         //noinspection SimplifiableIfStatement
         if (id == R.id.action_settings) {
-            Intent intent = new Intent(this, ComfiguracionActivity.class);
-            startActivity(intent);
-
             return true;
         }
-        if (id == R.id.action_leersettings) {
 
-            String mensage = null;
-            SharedPreferences defaultSharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
-
-            String frecuencia  = defaultSharedPreferences.getString("frecuencias", "0");
-            String url         = defaultSharedPreferences.getString("url", "0");
-
-            mensage = frecuencia + " " + url;
-            Toast.makeText(this, mensage, Toast.LENGTH_LONG);
-
-
-            return true;
-        }
-        if (id == R.id.action_escrivirsettings) {
-
-            String mensage = null;
-
-
-            SharedPreferences.Editor editor = PreferenceManager.getDefaultSharedPreferences(this).edit();
-
-            editor.putString("frecuencias", "0");
-            editor.putString("url","dadadad");
-
-            return true;
-        }
         return super.onOptionsItemSelected(item);
     }
 }

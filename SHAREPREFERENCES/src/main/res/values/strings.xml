@@ -3,4 +3,21 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_comfiguracion">ComfiguracionActivity</string>
+    <string name="action_leersettings">leerSetting</string>
+    <string-array name="frecuencias_entries">
+        <item>Ninguno</item>
+        <item>Una Hora</item>
+        <item>Un dia</item>
+        <item>Una Semana</item>
+    </string-array>
+    <string-array name="frecuencias_entries_values">
+        <item>0</item>
+        <item>3600</item>
+        <item>50000</item>
+        <item>350000</item>
+    </string-array>
 </resources>

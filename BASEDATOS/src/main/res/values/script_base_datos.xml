@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="array_scrip_creacion">
+    <item>CREATE TABLE [terremoto] ([id] VARCHAR(100)  NULL,[titulo] VARCHAR(100)  NULL,[fecha] DATE  NULL,[latitud] FLOAT  NULL,[logitud] FLOAT  NULL,[magnitud] FLOAT  NULL)</item>
+    </string-array>
+    <string-array name="array_scrip_actua1">
+        <item>CREATE TABLE [terremoto] ([id] VARCHAR(100)  NULL,[titulo] VARCHAR(100)  NULL,[fecha] DATE  NULL,[latitud] FLOAT  NULL,[logitud] FLOAT  NULL,[magnitud] FLOAT  NULL)</item>
+    </string-array>
+    <string-array name="array_scrip_actua2">
+        <item>CREATE TABLE [terremoto] ([id] VARCHAR(100)  NULL,[titulo] VARCHAR(100)  NULL,[fecha] DATE  NULL,[latitud] FLOAT  NULL,[logitud] FLOAT  NULL,[magnitud] FLOAT  NULL)</item>
+    </string-array>
+
+
+</resources>

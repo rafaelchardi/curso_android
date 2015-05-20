@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/BASEDATOS/BASEDATOS.iml" filepath="$PROJECT_DIR$/BASEDATOS/BASEDATOS.iml" />
       <module fileurl="file://$PROJECT_DIR$/DIALOGOS/DIALOGOS.iml" filepath="$PROJECT_DIR$/DIALOGOS/DIALOGOS.iml" />
       <module fileurl="file://$PROJECT_DIR$/EJEMPLOS/EJEMPLOS.iml" filepath="$PROJECT_DIR$/EJEMPLOS/EJEMPLOS.iml" />
       <module fileurl="file://$PROJECT_DIR$/FRACMENTOS/FRACMENTOS.iml" filepath="$PROJECT_DIR$/FRACMENTOS/FRACMENTOS.iml" />
       <module fileurl="file://$PROJECT_DIR$/INTERNETYTHEADS/INTERNETYTHEADS.iml" filepath="$PROJECT_DIR$/INTERNETYTHEADS/INTERNETYTHEADS.iml" />
       <module fileurl="file://$PROJECT_DIR$/MENUCONTEXTUAL/MENUCONTEXTUAL.iml" filepath="$PROJECT_DIR$/MENUCONTEXTUAL/MENUCONTEXTUAL.iml" />
       <module fileurl="file://$PROJECT_DIR$/MyApplication.iml" filepath="$PROJECT_DIR$/MyApplication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/PARSERXML/PARSERXML.iml" filepath="$PROJECT_DIR$/PARSERXML/PARSERXML.iml" />
       <module fileurl="file://$PROJECT_DIR$/SHAREPREFERENCES/SHAREPREFERENCES.iml" filepath="$PROJECT_DIR$/SHAREPREFERENCES/SHAREPREFERENCES.iml" />
       <module fileurl="file://$PROJECT_DIR$/VIEWADAPTER/VIEWADAPTER.iml" filepath="$PROJECT_DIR$/VIEWADAPTER/VIEWADAPTER.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
